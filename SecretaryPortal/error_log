@@ -1,0 +1,116 @@
+[05-Apr-2022 14:23:59 UTC] PHP Warning:  Undefined array key "percentage" in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1086
+[05-Apr-2022 14:28:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u359933141_payroll.sss_table' doesn't exist in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:643
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(643): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/createsalary.php(7): Payroll->automaticGenerateSalary()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 643
+[05-Apr-2022 14:28:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u359933141_payroll.sss_table' doesn't exist in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:643
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(643): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/createsalary.php(7): Payroll->automaticGenerateSalary()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 643
+[05-Apr-2022 14:30:05 UTC] PHP Warning:  A non-numeric value encountered in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 719
+[18-Apr-2022 09:59:59 UTC] PHP Warning:  Undefined array key "percentage" in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1086
+[21-Apr-2022 07:31:11 UTC] PHP Warning:  Undefined property: stdClass::$status in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1428
+[21-Apr-2022 07:46:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:46:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:46:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:47:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in on clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:48:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in on clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:49:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 1 in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:49:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:50:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:50:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:51:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in on clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:51:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:52:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 07:52:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'isDeleted' in where clause is ambiguous in /home/u359933141/domains/jtdv.tech/public_html/secclass.php:1422
+Stack trace:
+#0 /home/u359933141/domains/jtdv.tech/public_html/secclass.php(1422): PDOStatement->execute()
+#1 /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/deductions.php(136): Payroll->displaycashadvance()
+#2 {main}
+  thrown in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1422
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "empId" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 93
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "firstname" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 94
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "lastname" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 94
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "position" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 95
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "january" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 107
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "february" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 113
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "march" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 119
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "april" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 125
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "may" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 131
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "june" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 137
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "july" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 143
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "august" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 149
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "september" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 155
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "october" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 161
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "november" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 167
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "december" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 173
+[21-Apr-2022 08:19:50 UTC] PHP Warning:  Attempt to read property "amount" on bool in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/viewbonus.php on line 176
+[21-Apr-2022 08:26:41 UTC] PHP Warning:  Undefined variable $status in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 1431
+[22-Apr-2022 19:46:28 UTC] PHP Warning:  Undefined array key "SecretaryDetails" in /home/u359933141/domains/jtdv.tech/public_html/secclass.php on line 211
+[22-Apr-2022 19:46:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/releasedsalary.php on line 4
+[22-Apr-2022 19:46:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/releasedsalary.php on line 4
+[22-Apr-2022 19:46:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/u359933141/domains/jtdv.tech/public_html/SecretaryPortal/releasedsalary.php on line 5
