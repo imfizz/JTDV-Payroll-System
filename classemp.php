@@ -8,10 +8,10 @@ require_once "PHPMailer/Exception.php";
 
 Class Payroll
 {
-    private $username = "u359933141_jtdv";
-    private $password = "+Y^HLMVV2h";
+    private $username = "id22210416_jtdv";
+    private $password = "Kikopogi123@";
 
-    private $dns = "mysql:host=localhost;dbname=u359933141_payroll";
+    private $dns = "mysql:host=localhost;dbname=id22210416_jtdvpayroll2";
     protected $pdo;
 
     public function con()
